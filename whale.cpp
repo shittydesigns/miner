@@ -34,10 +34,10 @@ class [[eosio::contract]] whale : public contract {
 //      void claim() {
 //      require_auth( _self );
 
-//       void claim( const name from,
-//                   const name to,
-//                   const asset quantity,
-//                   const std::string memo ) {
+       void claim( const name from,
+                   const name to,
+                   const asset quantity,
+                   const std::string memo ) {
 
 
 //Don't fuck yourself up in using on_notify!
